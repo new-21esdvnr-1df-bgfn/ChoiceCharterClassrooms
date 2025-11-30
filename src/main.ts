@@ -2,6 +2,7 @@
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 import { levelUp } from "@workadventure/quests";
+import { EmbeddedWebsite } from "@workadventure/iframe-api-typings";
 
 console.log('Script started successfully');
 
@@ -185,6 +186,7 @@ function closePopup(){
         currentPopup = undefined;
     }
 }
+
 //////// Tracking Ping Script
 
 async function sendPlayerData(firstPing: boolean) {
